@@ -1,0 +1,29 @@
+{
+  "name": "govtrack-node",
+  "description": "Wrapper for the GovTrack data API",
+  "version": "0.1.0",
+  "author": "Mark Guerra <markgx@gmail.com>",
+  "keywords": [
+    "govtrack", "govtrack.us", "congress", "us",
+    "politics", "bills", "vote", "data"
+  ],
+  "main": "./lib/govtrack-node.js",
+  "homepage": "https://github.com/markgx/govtrack-node",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markgx/govtrack-node.git"
+  },
+  "dependencies": {
+    "request": "2.16.x"
+  },
+  "devDependencies": {
+    "mocha": "1.8.x",
+    "should": "1.2.x"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
