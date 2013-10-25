@@ -56,6 +56,13 @@ describe('findPerson()', function() {
       done();
     });
   });
+
+  it('should handle error response', function(done) {
+    govTrack.findPerson({ badarg: 'blah' }, function(err, res) {
+      err.should.not.eql(null);
+      done();
+    })
+  })
 });
 
 describe('findRole()', function() {
