@@ -21,7 +21,7 @@ govTrack.findRole({ current: true }, function(err, res) {
   }
 });
 
-govTrack.findPerson({ firstname: 'harry', lastname: 'reid' }, function(err, res) {
+govTrack.findPerson({ gender: 'male', lastname: 'smith' }, function(err, res) {
   if (!err) {
     // res contains JSON data response
   }
