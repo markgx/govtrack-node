@@ -1,5 +1,7 @@
 # GovTrack Node
 
+[![Build Status](https://travis-ci.org/markgx/govtrack-node.svg?branch=master)](https://travis-ci.org/markgx/govtrack-node)
+
 A Node.js wrapper for the [GovTrack](http://www.govtrack.us) data API.
 
 ## Install
