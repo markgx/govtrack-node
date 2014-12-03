@@ -14,7 +14,7 @@
     "url": "git://github.com/markgx/govtrack-node.git"
   },
   "dependencies": {
-    "request": "2.16.x"
+    "request": "2.49.x"
   },
   "devDependencies": {
     "mocha": "1.8.x",
